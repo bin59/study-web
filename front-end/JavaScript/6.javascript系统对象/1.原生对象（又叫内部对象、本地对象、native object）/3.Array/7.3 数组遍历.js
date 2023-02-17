@@ -5,7 +5,7 @@
     2、map( callback)
     3.every(callback)
     4.some(callback)
-    5.filter(callback)
+    5.filter(callback)  过滤所有   find()  过滤第一个
     6.reduce(callback) 
  会改变
     7.sort(sortFn)  
