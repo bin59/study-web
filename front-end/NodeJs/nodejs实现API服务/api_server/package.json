@@ -1,5 +1,5 @@
 {
-  "name": "nodejs实现API服务",
+  "name": "api_server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

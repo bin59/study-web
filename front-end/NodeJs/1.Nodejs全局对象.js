@@ -13,24 +13,20 @@
         process:提供与当前进程互动的接口
         require: 实现模块的加载
         module、exports:处理模块的导出
-*/ 
+*/
 console.log(global)
-console.log("__filename",__filename)/*  */
-console.log("__dirname",__dirname)
+console.log('__filename', __filename) /*  */
+console.log('__dirname', __dirname)
 
-
-console.log(this)//{}
+console.log(this) //{}
 
 // 默认情况this是空对象，和global并不是-一样的
-console.log(this == global)//false
-
-
-;(function(){
-    console.log(this == global)//true
+console.log(this == global) //false
+;(function () {
+  console.log(this == global) //true
 })()
-
-;(()=>{
-    console.log(this == global)//false
+;(() => {
+  console.log(this == global) //false
 })()
 
 /*
