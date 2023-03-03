@@ -194,17 +194,17 @@ cnpm install vue-cli -g
 vue init webpack demo
 
 2.2 在安装时会询问你:
+G:\binbin\web\project>vue init webpack vue2-pro
 
-（1）Project name demo；项目名称 demo。（确定按 enter，否按 N）
-（2）Project description (A Vue.js project)；项目描述
-（3）Author (wtt1002)；作者（wtt1002）。（确定按 enter，否按 N）
-（4）Vue build (Use arrow keys)> Runtime + Compiler: recommended for most usersRuntime-only: about 6KB lighter min+gzip, but templates (or any Vue-specificHTML) are ONLY allowed in .vue files - render 　　　　　　　　 functions are required elsewhere；（按 enter）
-（5）Install vue-router? (Y/n)；（可安可不安，我按 enter）
-（6）Use ESLint to lint your code? (Y/n)；使用 ESlint 语法？（Y/ N）。（使用 ESLint 语法，建议 N）
-（7）Setup unit tests with Karma + Mocha? (Y/n)；设置单元测试？（Y / N）。（建议 N）
-（8）Setup e2e tests with Nightwatch? (Y/n)；Nightwatch 建立端到端的测试？（Y / N）。（建议 N）
-
-（记得最后一步选择 No I will handle that myselft，也就是创建完项目后由我自己来下载依赖）
+? Project name vue2-pro
+? Project description A Vue.js project
+? Author binbin <81745365+bin59@users.noreply.github.com>
+? Vue build runtime
+? Install vue-router? Yes
+? Use ESLint to lint your code? No
+? Set up unit tests No
+? Setup e2e tests with Nightwatch? No
+? Should we run `npm install` for you after the project has been created? (recommended) yarn
 
 进入项目目录
 cd test_1
