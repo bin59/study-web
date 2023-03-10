@@ -1,4 +1,4 @@
-let baseUrl = 'http://101.34.115.22:7001'
+let baseUrl = 'http://192.168.2.87:8088/'
 export default {
-  shop: baseUrl + '/api/getProducts',
+  view: baseUrl,
 }

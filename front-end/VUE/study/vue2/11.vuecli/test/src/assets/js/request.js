@@ -1,9 +1,10 @@
 import api from './api.js'
 import http from './http.js'
-export function getData(data) {
+export function viewApi(data) {
   return http({
     methods: 'GET',
     params: data,
-    url: api.shop,
+    url: api.view,
+    responseType: 'blob',
   })
 }
